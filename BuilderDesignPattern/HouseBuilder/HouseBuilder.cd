@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="BuilderDesignPattern.HouseBuilder.Builder.ElegantHouseBuilder">
+    <Position X="4.5" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAACACAAAAAAAAAAAAAQAAAAAAAKAAAAAA=</HashCode>
+      <FileName>HouseBuilder\Builder\ElegantHouseBuilder.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="BuilderDesignPattern.HouseBuilder.Builder.KuboHouseBuilder">
+    <Position X="4.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAACACAAAAAAAAAAAAAQAAAAAAAKAAAAAA=</HashCode>
+      <FileName>HouseBuilder\Builder\KuboHouseBuilder.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="BuilderDesignPattern.HouseBuilder.Director.CivilEngineer">
+    <Position X="6.5" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAAAAAAAEAAAAAAAAAAAABAAAAAAAAAAAA=</HashCode>
+      <FileName>HouseBuilder\Director\CivilEngineer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BuilderDesignPattern.HouseBuilder.Product.House">
+    <Position X="0.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAAAAAAAACAAAACAEACAAAABAAAAAAAACAAA=</HashCode>
+      <FileName>HouseBuilder\Product\House.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="BuilderDesignPattern.HouseBuilder.Builder.IHouseBuilder">
+    <Position X="2.75" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAACACAAAAAAAAAAAAAQAAAAAAAIAAAAAA=</HashCode>
+      <FileName>HouseBuilder\Builder\IHouseBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="BuilderDesignPattern.HouseBuilder.Product.IHousePlan">
+    <Position X="0.75" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAAAAAAAAAAAAACAAAAAAAABAAAAAAAACAAA=</HashCode>
+      <FileName>HouseBuilder\Product\IHousePlan.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="BuilderDesignPattern.RobotBuilder.OldRobotBuilder" BaseTypeListCollapsed="true">
+    <Position X="2.75" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAACABAAgAAAAAAEAAAAAAAAAAAEAAAAAAAAAAA=</HashCode>
+      <FileName>RobotBuilder\ConcreteBuilders\OldRobotBuilder.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="BuilderDesignPattern.RobotBuilder.RobotEngineer">
+    <Position X="6" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAAAABAAAAAABAAAAAA=</HashCode>
+      <FileName>RobotBuilder\Director\RobotEngineer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BuilderDesignPattern.RobotBuilder.Robot" BaseTypeListCollapsed="true">
+    <Position X="9.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAEgAAAQQAIAAAAAAAAAABACAAAABAABAQA=</HashCode>
+      <FileName>RobotBuilder\Product\Robot.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="BuilderDesignPattern.RobotBuilder.Implementation.ModernRobotBuilder" BaseTypeListCollapsed="true">
+    <Position X="1" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAACABAAgAAAAAAEAAAAAAAAAAAEAAAAAAAAAAA=</HashCode>
+      <FileName>RobotBuilder\ConcreteBuilders\ModernRobotBuilder.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Interface Name="BuilderDesignPattern.RobotBuilder.IRobotBuilder">
+    <Position X="2" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAACABAAgAAAAAAAAAAAAAAAAAAEAAAAAAAAAAA=</HashCode>
+      <FileName>RobotBuilder\Builder\IRobotBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="BuilderDesignPattern.RobotBuilder.IRobotPlan">
+    <Position X="9.75" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAQAAAAAAAAAAAAAACAAAAAAABAQA=</HashCode>
+      <FileName>RobotBuilder\Builder\IRobotPlan.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
